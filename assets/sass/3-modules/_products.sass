@@ -12,6 +12,10 @@
     justify-content: center
     align-items: center
 
+    @include base_mixins.mobile
+        width: 90%
+        margin: 1rem
+
     &:hover
         border-color: variables.$primary-color
 
